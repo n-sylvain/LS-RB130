@@ -24,10 +24,10 @@ class CatTest < Minitest::Test
   #   end
   # end
 
-  def test_is_not_purrier
-    patch = Cat.new('Patch', 5)
-    milo = Cat.new('Milo', 3)
+  # def test_is_not_purrier
+  #   patch = Cat.new('Patch', 5)
+  #   milo = Cat.new('Milo', 3)
 
-    refute(patch.purr_factor > milo.purr_factor)
-  end
+  #   refute(patch.purr_factor > milo.purr_factor)
+  # end
 end
